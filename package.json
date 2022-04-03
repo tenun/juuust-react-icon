@@ -1,5 +1,5 @@
 {
-  "name": "react-icon",
+  "name": "@tenun/react-icon",
   "version": "0.0.0",
   "description": "Tenun Icon automation workflow with Figma for React Component",
   "main": "dist/react-icon.cjs.js",
