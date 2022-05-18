@@ -3,9 +3,11 @@ import styled from 'styled-components';
 
 const Header = styled.header`
   display: block;
-`
+  text-align: center;
+`;
 
-export default () =>
+export default () => (
   <Header>
-    <h1>Beautiful Icons</h1>
+    <h1>Tenun Icons</h1>
   </Header>
+);
