@@ -1,10 +1,10 @@
 # Tenun React Icons
 
-Tenun React Icon is set collection of [Tenun icon](https://www.figma.com/file/EXwWuLGcKuH96Nu6ApvaIK/%40tenun%2Ficon%2Fdefault?node-id=112%3A0) that can be used in React project. This project used [Figma Icon Automation Plugin](https://github.com/leadream/figma-icon-automation) to generate changes from Figma files and pushes to this repository.
+Tenun React Icons is set collection of [Tenun icons](https://www.figma.com/file/EXwWuLGcKuH96Nu6ApvaIK/%40tenun%2Ficon%2Fdefault?node-id=112%3A0) that can be used in React project. This project used [Figma Icon Automation Plugin](https://github.com/leadream/figma-icon-automation) to generate changes from Figma files and pushes to this repository.
 
 ## Installation
 
-To install Tenun React Icon is via npm package.
+To install Tenun React Icons is via npm package.
 
 ```bash
 yarn add @tenun/react-icon
@@ -18,7 +18,7 @@ npm install --save @tenun/react-icon
 
 ## Usage
 
-To use Tenun React Icon is simply to import the icons on the code.
+To use Tenun React Icons is simply to import the icons on the code.
 
 ```tsx
 import React from 'react';
@@ -47,7 +47,7 @@ Tenun Icon components can accept all props for SVG element such as `color`, `siz
 
 ## Development
 
-Create a `.env` in the root directory. Put your Figma file url and Figma token inside.
+Create a `.env` in the root directory. Put Tenun Figma file url and Figma token inside.
 
 ```
 FIGMA_FILE_URL=https://www.figma.com/file/********************/tenun-icons
@@ -56,7 +56,7 @@ FIGMA_TOKEN=********************************
 
 ### fetch SVG file
 
-Run `yarn fetch` to fetch SVG files from Figma file. This will pull your SVGs in `./src/svg/`.
+Run `yarn fetch` to fetch SVG files from Figma file. This will pull the SVGs in `./src/svg/`.
 
 ### generate React components for icons
 
