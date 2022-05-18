@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/tenun/react-icon/issues"
   },
-  "homepage": "https://github.com/tenun/react-icon#readme",
+  "homepage": "https://tenun.github.io/react-icon/",
   "scripts": {
     "fetch": "node bin/fetchSVG.js",
     "generate": "sudo rm -rf src/icons && node bin/build.js",
