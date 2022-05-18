@@ -41,9 +41,9 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 Tenun Icon components can accept all props for SVG element such as `color`, `size`, `alt`, and more.
 
-- **color?**: `string` – Icon's stroke or fill color. By default it use `currentColor`.
-- **size?**: `number | string` – Icon height & width. For the number it uses `px` and for the string it can be used with other units as well, just specifu the units `%`, `em`, `rem`, `pt`, `cm`, `mm`, `in`.
-- **alt?**: `string` – Add accessible alt text to an icon.
+- **color**: `string` – Icon's stroke or fill color. By default it use `currentColor`.
+- **size**: `number | string` – Icon height & width. For the number it uses `px` and for the string it can be used with other units as well, just specify the units `%`, `em`, `rem`, `pt`, `cm`, `mm`, `in`.
+- **alt**: `string` – Add accessible alt text to an icon.
 
 ## Development
 
